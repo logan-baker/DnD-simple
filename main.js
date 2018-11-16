@@ -26,11 +26,6 @@ if (window.FileReader) {
 
                 //attach event handlers here...
 
-                addEventHandler(click, 'click', function (e) {
-                    e = e || window.event
-                    if (e.preventDefault) { e.preventDefault(); }
-                });
-
                 reader.readAsDataURL(file);
                 addEventHandler(reader, 'loadend', function (e, file) {
                     var bin = this.result;

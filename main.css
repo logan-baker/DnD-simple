@@ -6,8 +6,19 @@
     padding: 10px;
 }
 
+/* Input value not sent if we use display:none, so this is a work around */
+
 #file-dropdown {
-    display: none;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#file-dropdown + label {
+    cursor: pointer;
 }
 
 .im-a-label {

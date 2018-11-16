@@ -1,2 +1,7 @@
-Source: Robert Gravelle, "Drag Files Into the Browser From the Desktop with HTML5"
+Sources: 
+* Robert Gravelle, "Drag Files Into the Browser From the Desktop with HTML5"
 Link: https://www.htmlgoodies.com/html5/javascript/drag-files-into-the-browser-from-the-desktop-HTML5.html
+* Osvaldas Valutis
+Link: https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/
+* This guy (uses jQuery, so not too useful)
+Link: http://jsfiddle.net/JtJ5N/359/
